@@ -1,0 +1,172 @@
+body {
+	margin: 0;
+	font-family: Arial;
+}
+
+header {
+	color: #451952;
+	border-radius: 10px;
+	background-color: #f39f5a;
+	height: 160px;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 30px;
+	text-align: center;
+	padding: 5px;
+	margin: 5px;
+}
+
+.topnav {
+	overflow: hidden;
+	background-color: #662549;
+}
+
+.topnav a {
+	float: left;
+	color: #f2f2f2;
+	margin: 8px;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.topnav a:hover {
+	border: 10px #662549;
+	border-radius: 10px;
+	margin: 6px;
+	background-color: #f39f5a;
+	color: black;
+	padding: 15px;
+}
+
+.topnav-center {
+	text-align: center;
+}
+
+.topnav-right {
+	float: right;
+}
+
+.image {
+	width: 1350px;
+	height: 80px;
+	padding: 10px;
+	margin-left: 80px;
+	margin-bottom: 5px;
+	display: flex;
+	justify-content: space-around;
+	color: #451952;
+	text-align: center;
+}
+
+.image a {
+	text-decoration: none;
+	color: black;
+}
+
+.image :hover {
+	zoom: 120%;
+}
+
+.container {
+	margin-left: px;
+	padding: 2px;
+	display: inline-block;
+	text-align: center;
+}
+
+.book {
+	border: 2px solid #ff6978;
+	border-radius: 5px;
+	width: 170px;
+	height: 240px;
+	padding: 10px;
+	margin-left: 80px;
+	margin-bottom: 20px;
+	text-align: center;
+	display: inline-block;
+	line-height: 1;
+}
+
+div.scroll-container {
+	background-color: #451952;
+	overflow: auto;
+	white-space: nowrap;
+	padding: 10px;
+}
+
+div.scroll-container img {
+	padding: 10px;
+}
+
+.share-buttons {
+	position: absolute;
+	top: 130px;
+	left: 1170px;
+}
+
+.share-buttons a {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.share-buttons img {
+	width: 35px;
+	height: 35px;
+	border: none;
+}
+
+.facebook img {
+	border-radius: 10%;
+	padding: 1px;
+	transition: background-color 1s;
+}
+
+.facebook img:hover {
+	zoom: 130%;
+}
+.youtube img {
+	border-radius: 10%;
+	padding: 1px;
+	transition: background-color 1s;
+}
+
+.youtube img:hover {
+	zoom: 130%;
+}
+
+.twitter img {
+	border-radius: 10%;
+	padding: 1px;
+}
+
+.twitter img:hover {
+	zoom: 130%;
+}
+
+.insta img {
+	border-radius: 10%;
+	padding: 1px;
+}
+
+.insta img:hover {
+	zoom: 130%;
+}
+.linkin img {
+	border-radius: 10%;
+	padding: 1px;
+	transition: background-color 1s;
+}
+
+.linkin img:hover {
+	zoom: 130%;
+}
+.pins img {
+	border-radius: 10%;
+	padding: 1px;
+	transition: b;
+}
+
+.pins img:hover {
+	zoom: 130%;
+}
